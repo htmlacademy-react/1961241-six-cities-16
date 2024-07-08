@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов»
 
 * Студент: [Сергей Уфимцев](https://up.htmlacademy.ru/react/16/user/1961241).
-* Наставник: `Неизвестно`.
+* Наставник: `Yulia Volkova`[https://htmlacademy.ru/profile/julie_volkova].
 
 ---
 
