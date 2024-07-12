@@ -1,11 +1,11 @@
 import MainPage from '../components/pages/main-page/main-page';
 
 type AppScreenProps = {
-  cardsCount: number;
+  offersCount: number;
 };
 
-function App({ cardsCount }: AppScreenProps): JSX.Element {
-  return <MainPage cardsCount={cardsCount} />;
+function App({ offersCount }: AppScreenProps): JSX.Element {
+  return <MainPage offersCount={offersCount} />;
 }
 
 export default App;

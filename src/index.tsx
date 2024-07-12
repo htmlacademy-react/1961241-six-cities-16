@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './app/app';
 
 const Setting = {
-  CardsCount: 312,
+  OffersCount: 312,
 } as const;
 
 const root = ReactDOM.createRoot(
@@ -12,6 +12,6 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <App cardsCount={Setting.CardsCount} />
+    <App offersCount={Setting.OffersCount} />
   </React.StrictMode>
 );

@@ -1,10 +1,10 @@
 import PlaceCard from '../../cards/cards';
 
 type MainPageProps = {
-  cardsCount: number;
+  offersCount: number;
 };
 
-function MainPage({ cardsCount }: MainPageProps): JSX.Element {
+function MainPage({ offersCount }: MainPageProps): JSX.Element {
   return (
     <div className="page page--gray page--main">
       <header className="header">
@@ -89,7 +89,7 @@ function MainPage({ cardsCount }: MainPageProps): JSX.Element {
             <section className="cities__places places">
               <h2 className="visually-hidden">Places</h2>
               <b className="places__found">
-                {cardsCount} places to stay in Amsterdam
+                {offersCount} places to stay in Amsterdam
               </b>
               <form className="places__sorting" action="#" method="get">
                 <span className="places__sorting-caption">Sort by</span>
