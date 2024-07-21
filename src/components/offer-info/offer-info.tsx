@@ -1,6 +1,6 @@
 function OfferInfo(): JSX.Element {
   return (
-    <div className="offer__wrapper">
+    <>
       <div className="offer__mark">
         <span>Premium</span>
       </div>
@@ -46,7 +46,7 @@ function OfferInfo(): JSX.Element {
           <li className="offer__inside-item">Fridge</li>
         </ul>
       </div>
-    </div>
+    </>
   );
 }
 

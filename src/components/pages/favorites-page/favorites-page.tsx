@@ -6,10 +6,14 @@ import Logo from '../../header/logo/logo';
 import Username from '../../header/user/username';
 import SignMenu from '../../header/user/sign-menu';
 import FavoritesCount from '../../header/user/favorites-count';
+import { Helmet } from 'react-helmet-async';
 
 function FavoritesPage(): JSX.Element {
   return (
     <div className="page">
+      <Helmet>
+        <title>6 cities: favorites</title>
+      </Helmet>
       <header className="header">
         <div className="container">
           <div className="header__wrapper">
