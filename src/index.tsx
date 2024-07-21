@@ -6,6 +6,19 @@ const Setting = {
   OffersCount: 312,
 } as const;
 
+export enum AppRoute {
+  Root = '/',
+  Login = '/login',
+  Favorites = '/favorites',
+  Offer = '/offer',
+}
+
+export enum AuthorizationStatus {
+  Auth = 'AUTH',
+  NoAuth = 'NO_AUTH',
+  Unknown = 'UNKNOWN',
+}
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
