@@ -30,7 +30,7 @@ function App({ offersCount }: AppScreenProps): JSX.Element {
               </PrivateRoute>
             }
           />
-          <Route path={AppRoute.Offer} element={<OfferLogged />} />
+          <Route path={`${AppRoute.Offer}/:id`} element={<OfferLogged />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </BrowserRouter>
