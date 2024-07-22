@@ -1,24 +1,22 @@
-function LoginUser(): JSX.Element {
+import { Helmet } from 'react-helmet-async';
+import Logo from '../../header/logo/logo';
+
+function LoginPage(): JSX.Element {
   return (
     <div className="page page--gray page--login">
+      <Helmet>
+        <title>6 cities: authorization</title>
+      </Helmet>
       <header className="header">
         <div className="container">
           <div className="header__wrapper">
             <div className="header__left">
-              <a className="header__logo-link" href="main.html">
-                <img
-                  className="header__logo"
-                  src="img/logo.svg"
-                  alt="6 cities logo"
-                  width="81"
-                  height="41"
-                />
-              </a>
+              <Logo />
             </div>
+            <nav className="header__nav"></nav>
           </div>
         </div>
       </header>
-
       <main className="page__main page__main--login">
         <div className="page__login-container container">
           <section className="login">
@@ -65,4 +63,4 @@ function LoginUser(): JSX.Element {
   );
 }
 
-export default LoginUser;
+export default LoginPage;
